@@ -1,1 +1,79 @@
+# ⚡ Hackathon Project ⚡
+
+
+## BD Energy
+### Reggae Labs
+#### REFI, NFTs,  
+
+##### Region location
+
+##### Team Members
+- Matende Powell, BackEnd developer
+
+
+
+#### Project Description
+Provide a clear statement of the challenges/issues/problems/gaps your project engages as well as a brief, high-level description of how your project engages the areas you've identified. What is the value of your approach? Who are the intended users?
+
+With the world starting to understand the impacts of fossil fuels, there is a growing focus on clean energy and incentives to use clean energy are being put in place by many government. However, there is a challange in intergrating these resources into the main grid. Resources such as wind and solar can be very inconsistent in their nature. These resources are also far from a connection to the main grid and in my Country connections to the power grid can take months to years due to financial constraints even when they have already been approved. 
+
+Our approach at Reggae labs is to create a way for communities that are far from the main grid can fund connections to distributed energy resources and form microgrids in a trustless manner. We also want to create a platform on which energy from these microgrids can be sold to consumers through mPPAs (micro Power Purchase Agreements) and consumers can pay for power and owners of these distributed energy resources can be credited for the service they have provided to the people by the government.
+
+
+#### Summary
+Describe the basic functionality of your project. What are the features you were able to implement? What features would you like to implement?
+The project is divided into 3 parts:
+1. A Decentralized energy market
+Each Microgrid will have its own instance of the energy market in which people will be able to;
+
+Request a connection to the grid and fund this connection either as a consumer or generator or both. 
+
+Energy from the generators will be aggregated and pooled so consumers are able to purchase from the total energy available.
+
+Generators can recieve and withdraw payment for energy provided to the pool.
+
+Consumers can pay for energy used from the pool. 
+
+A transaction fee will be charged for energy sales on the market and withdrawal of funds by geerators from the market.
+
+A fee will also be charged for capacity to incentivize funding for transmission lines.
+
+About 50% of capacity fees and exchange fees will go to funding of new microgrids and will be transfered to the crowd funding core contract
+
+
+
+
+2. A crowd funding and lending platform.
+Here a consumer or generator can create a proposal for a microgrid and give information on the Resources available to set up this microgrid.
+
+Minimum requirements for setting up the microgrid are also to be specified on this platform.
+
+Other interested parties will be able to vote on Grid proposals.
+
+Fees from the energy market will be divided amongst the proposals percentage wise basing on the amount already staked in each proposal
+
+
+3. Monitoring Platform.
+This platform is for the systems controller who monitors supply and demand and ensures system stability.
+
+He is given information on number of mPPAs in the micro grid, new resources to be added.
+
+This contract collects off chain system data for the other contracts to use such as tariffs and energy used from each resource. 
+
+Provides System information to regulator who awards the generators inform of credits.
+
+
+
+
+#### Next Steps
+What do you need to do next to turn this prototype into a working solution?
+Develop the Energy Market Contract
+Develop the Crowd Funding Contract
+Develop the monitoring Contract
+
+Develop the frontend UIs 
+
+
+#### License
+This repository includes an [unlicensed](http://unlicense.org/) statement though you may want to [choose a different license](https://choosealicense.com/).
 
